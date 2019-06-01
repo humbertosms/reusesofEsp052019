@@ -9,7 +9,7 @@ public class CondicoesViagens {
 
             carro.imprimirNome();
 
-            System.out.println("FUDEU GREVE DOS CAMINHONEIROS!!!! ");
+            System.out.println("FUDEU GREVE DOS CAMINHONEIROS!!!!  ");
             FactoryVeiculoCrise crise = new FactoryVeiculoCrise();
 
             carro = crise.criarVeiculo(null,null);
